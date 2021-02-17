@@ -1,0 +1,31 @@
+// Primary Color are the colors that define our brand
+// and are used in all of our experiences. Our primary colors are:
+// red, black and white. Use Verizon’s primary color palette
+// in the majority of Verizon communications.
+$primary-base:  #000000; // black
+$primary-dark: #000000; // black
+$primary-light: #FFFFFF; // white
+$primary-red: #D52B1E; // red
+
+// Secondary Color Palette
+// Our secondary colors, orange, yellow, blue and green,
+// are used to highlight key information. Each is used
+// specifically and sparingly to draw attention and support
+// the meaning of a component, e.g., the green background
+// of notifications with success messaging.
+$secondary-highlight1: #ED7000; // orange
+$secondary-highlight2: #FFBC3D; // yellow
+$secondary-highlight3: #00AC3E; // green
+$secondary-highlight4: #0077B4; // blue
+// highlight5 - highlight4 inverse per vz guidelines
+$secondary-highlight5: #0088CE; //light blue
+
+// monochrome colors
+// We have multiple grays for all visual design needs and to meet
+// accessibility requirements. Gray is used to separate or diminish
+// elements in components and layouts. Gray is also used within
+// some interactive states.
+$monochrome-base: #F6F6F6; // grey 1 xlight
+$monochrome-light: #D8DADA; // grey 2 light
+$monochrome-mid: #747676; //  grey 3 mid
+$monochrome-dark: #333333; // grey 4 dark

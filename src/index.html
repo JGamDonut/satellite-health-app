@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Alion Code Test</title>
+  <link rel="stylesheet" type="text/css" href="./styles/main.css"/>
+</head>
+<body>
+<main>
+  <div class="section">
+    <div class="hero">
+      <h1 class="site-header push-bottom-large text-align-center">Satellite Health App</h1>
+    </div>
+
+      <small class="input-helper"><em>Select sample data text file at <code>./data/data.txt</code></em></small>
+      <div class="upload">
+        <div class="upload-content">
+          <label for="file-upload"
+                 class="upload-title">Drag and drop</label>
+          <p class="upload-subtitle">your file or <span class="underline">browse</span></p>
+        </div>
+        <input type="file"
+               id="js-input-upload"
+               class="fileinput"
+               name="text upload"
+               multiple="false"
+               accept=".txt">
+      </div>
+
+      <p class="status push-bottom">File:
+        <span id="js-file-info">&nbsp;</span>
+      </p>
+
+
+      <section>
+        <section class="heading-small">
+          <h2 class="header">Outputs</h2>
+        </section>
+        <div class="layout">
+          <div class="showcase-block">
+            <div class="">
+                <p class="text-bold">Original</p>
+                <div class="preview"
+                     id="js-data-preview">&nbsp;</div>
+            </div>
+          </div>
+          <div class="info-block">
+            <div class="">
+              <p class="text-bold">Alerts</p>
+              <div class="output"
+                   id="js-output">&nbsp;</div>
+            </div>
+        </div>
+      </section>
+  </div>
+</main>
+<script src="./scripts/main.js"></script> 
+</body>
+</html>

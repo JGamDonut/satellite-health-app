@@ -1,0 +1,7 @@
+$mobile-max-width: 767px;
+$desktop-min-width: 768px;
+
+$breakpoints: (
+  'desktop': $desktop-min-width,
+  'mobile': $mobile-max-width
+) !default;
